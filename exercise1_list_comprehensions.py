@@ -62,10 +62,14 @@ if __name__ == "__main__":
     list_three = main_three(fruits)
     print(fr'Exercise three: test')
     list_four = main_four(fruits)
+    print(fr'Exercise four: return a list with True or False if the fruit has "ap". The result is : {list_four}')
     list_five = main_five(fruits)
+    print(fr'Exercise five: return a list with True or False if the fruit has "p","l","k" or "r". The result is : {list_five}')
     list_six = main_six(fruits)
+    print(fr'Exercise six: return a list with True or False if the fruit is an apple or an orange. The result is : {list_six}')
     list_seven = main_seven(sentence)
+    print(fr'Exercise seven: return a list with True or False if the each word in the sentence has an lower "a". The result is : {list_seven}')
     list_eight = main_eight(number3)
+    print(fr'Exercise eight: return a number with all the pair digits multiplied by two. The result is : {list_eight}')
     list_nine = main_nine(number3)
-
-    x=0
+    print(fr'Exercise nine: return a number with all pair digits summed with the next pair digit. The result is : {list_nine}')
